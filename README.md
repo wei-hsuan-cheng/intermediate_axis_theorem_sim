@@ -2,7 +2,7 @@
 
 Simulation of the intermediate axis theorem (as known as the tennis racket theorem or the Dzhanibekov effect).
 
-## Euler’s equation of rigid body motion (Euler's rotation equations)
+## Euler’s equations of rigid body motion (Euler's rotation equations)
 
 - General vector form
 $$
