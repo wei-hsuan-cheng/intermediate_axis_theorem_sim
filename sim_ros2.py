@@ -9,6 +9,7 @@ from tf2_ros import TransformBroadcaster
 import numpy as np
 import time
 
+
 class IntermediateAxisTheoremVisualizer(Node):
     def __init__(self):
         super().__init__('intermediate_axis_theorem_visualizer')
@@ -16,7 +17,7 @@ class IntermediateAxisTheoremVisualizer(Node):
         self.box_pub_ = self.create_publisher(Marker, '/markers/box_marker', 10)
         self.wire_pub_ = self.create_publisher(Marker, '/markers/wire_marker', 10)
         self.br = TransformBroadcaster(self)
-        self.timer_period = 0.02  # 50 Hz
+        self.timer_period = 0.01  # 100 [Hz]
         self.timer = self.create_timer(self.timer_period, self.timer_callback)
 
         self.setup_dynamics()
@@ -42,7 +43,7 @@ class IntermediateAxisTheoremVisualizer(Node):
 
         # Initial conditions
         
-        # # Mainly along intermediate axis (I2), with small perturbations along the other two axes
+        # # Mainly along omega2 (I2) (intermediate axis), with small perturbations along the other two axes
         # omega_y = 2.0  # [Hz]
         # omega0 = np.array([omega_y * 0.01, omega_y * 1.0, omega_y * 0.001]) * 2 * np.pi
         
@@ -236,6 +237,7 @@ def main(args=None):
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()

@@ -14,15 +14,15 @@ Simulation of the intermediate axis theorem (as known as the tennis racket theor
 
 
 ## Simulation (visualised in ROS 2 RViz2)
-- Mainly along $\omega_1$ ($I_1$), with small perturbations along the other two axes.
+- Rotate mainly along $\omega_1$ ($I_1$), with small perturbations along the other two axes.
     > Stable rotation
     <img src="assets/i1.gif" alt="Intermediate Axis Theorem Demo" width="400"/>
 
-- Mainly along $\omega_3$ ($I_3$), with small perturbations along the other two axes.
+- Rotate mainly along $\omega_3$ ($I_3$), with small perturbations along the other two axes.
     > Stable rotation
     <img src="assets/i3.gif" alt="Intermediate Axis Theorem Demo" width="400"/>
 
-- Mainly along $\omega_2$ ($I_2$) (the intermediate axis), with small perturbations along the other two axes.
+- Rotate mainly along $\omega_2$ ($I_2$) (the intermediate axis), with small perturbations along the other two axes.
     > Unstable rotation (axis flipped)
     <img src="assets/i2.gif" alt="Intermediate Axis Theorem Demo" width="400"/>
 
