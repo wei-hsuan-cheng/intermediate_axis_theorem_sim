@@ -12,7 +12,9 @@ $
 \end{aligned}
 $
 
-<img src="equations/general_vector_form.pdf" alt="general_vector_form" width="400"/>
+<img src="assets/general_vector_form.pdf" alt="general_vector_form" width="400"/>
+
+![general_vector_form](assets/general_vector_form.pdf)
     
 - Under torque-free condition
 
@@ -28,15 +30,15 @@ $
 ## Simulation (visualised in ROS 2 RViz2)
 - Mainly along $\omega_1$ ($I_1$), with small perturbations along the other two axes.
     > Stable rotation
-    <img src="video/i1.gif" alt="Intermediate Axis Theorem Demo" width="400"/>
+    <img src="assets/i1.gif" alt="Intermediate Axis Theorem Demo" width="400"/>
 
 - Mainly along $\omega_3$ ($I_3$), with small perturbations along the other two axes.
     > Stable rotation
-    <img src="video/i3.gif" alt="Intermediate Axis Theorem Demo" width="400"/>
+    <img src="assets/i3.gif" alt="Intermediate Axis Theorem Demo" width="400"/>
 
 - Mainly along $\omega_2$ ($I_2$) (the intermediate axis), with small perturbations along the other two axes.
     > Unstable rotation (axis flipped)
-    <img src="video/i2.gif" alt="Intermediate Axis Theorem Demo" width="300"/>
+    <img src="assets/i2.gif" alt="Intermediate Axis Theorem Demo" width="300"/>
 
 
 ## Demo
