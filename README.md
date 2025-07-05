@@ -22,17 +22,18 @@ $$
 
 
 ## Simulation (visualised in ROS 2 RViz2)
-- Mainly along $\omega_1$ ($I_1$), with small perturbations along the other two axes
+- Mainly along $\omega_1$ ($I_1$), with small perturbations along the other two axes.
     > Stable rotation
-![Intermediate Axis Theorem Demo](video/i1.gif)
+    <img src="video/i1.gif" alt="Intermediate Axis Theorem Demo" width="400"/>
 
-- Mainly along $\omega_3$ ($I_3$), with small perturbations along the other two axes
+- Mainly along $\omega_3$ ($I_3$), with small perturbations along the other two axes.
     > Stable rotation
-![Intermediate Axis Theorem Demo](video/i3.gif)
+    <img src="video/i3.gif" alt="Intermediate Axis Theorem Demo" width="400"/>
 
-- Mainly along $\omega_2$ ($I_2$) (the intermediate axis), with small perturbations along the other two axes
-    > Unstable rotation (axis flip)
-![Intermediate Axis Theorem Demo](video/i2.gif)
+- Mainly along $\omega_2$ ($I_2$) (the intermediate axis), with small perturbations along the other two axes.
+    > Unstable rotation (axis flipped)
+    <img src="video/i2.gif" alt="Intermediate Axis Theorem Demo" width="300"/>
+
 
 ## Demo
 
