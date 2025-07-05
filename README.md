@@ -12,9 +12,9 @@ $
 \end{aligned}
 $
 
-<img src="assets/general_vector_form.pdf" alt="general_vector_form" width="400"/>
+<img src="assets/general_vector_form.png" alt="general_vector_form" width="400"/>
 
-![general_vector_form](assets/general_vector_form.pdf)
+![general_vector_form](assets/general_vector_form.png)
     
 - Under torque-free condition
 
@@ -38,7 +38,7 @@ $
 
 - Mainly along $\omega_2$ ($I_2$) (the intermediate axis), with small perturbations along the other two axes.
     > Unstable rotation (axis flipped)
-    <img src="assets/i2.gif" alt="Intermediate Axis Theorem Demo" width="300"/>
+    <img src="assets/i2.gif" alt="Intermediate Axis Theorem Demo" width="400"/>
 
 
 ## Demo
