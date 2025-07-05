@@ -5,20 +5,22 @@ Simulation of the intermediate axis theorem (as known as the tennis racket theor
 ## Euler’s equations of rigid body motion (Euler's rotation equations)
 
 - General vector form
-$$
+
+$
 \begin{aligned}
 \mathbf{I} \, \dot{\bm{\omega}} + \bm{\omega} \times \left( \mathbf{I} \, \bm{\omega} \right) = \mathbf{M}
 \end{aligned}
-$$
+$
     
-- Under torque-free condition 
-$$
+- Under torque-free condition
+
+$
 \begin{aligned}
 I_1 \dot{\omega}_1 + (I_3 - I_2) \omega_2 \omega_3 &= 0 \\
 I_2 \dot{\omega}_2 + (I_1 - I_3) \omega_3 \omega_1 &= 0 \\
 I_3 \dot{\omega}_3 + (I_2 - I_1) \omega_1 \omega_2 &= 0
 \end{aligned}
-$$
+$
 
 
 ## Simulation (visualised in ROS 2 RViz2)
