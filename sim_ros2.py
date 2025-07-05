@@ -43,15 +43,15 @@ class IntermediateAxisTheoremVisualizer(Node):
 
         # Initial conditions
         
-        # # Mainly along omega2 (I2) (intermediate axis), with small perturbations along the other two axes
-        # omega_y = 2.0  # [Hz]
-        # omega0 = np.array([omega_y * 0.01, omega_y * 1.0, omega_y * 0.001]) * 2 * np.pi
+        # Rotate mainly along omega2 (I2) (the intermediate axis), with small perturbations along the other two axes
+        omega_y = 2.0  # [Hz]
+        omega0 = np.array([omega_y * 0.001, omega_y * 1.0, omega_y * 0.001]) * 2 * np.pi
         
-        # Mainly along omega1 (I1), with small perturbations along the other two axes
-        omega_x = 2.0  # [Hz]
-        omega0 = np.array([omega_x * 1.0, omega_x * 0.01, omega_x * 0.001]) * 2 * np.pi
+        # # Rotate mainly along omega1 (I1), with small perturbations along the other two axes
+        # omega_x = 2.0  # [Hz]
+        # omega0 = np.array([omega_x * 1.0, omega_x * 0.01, omega_x * 0.001]) * 2 * np.pi
         
-        # # Mainly along omega3 (I3), with small perturbations along the other two axes
+        # # Rotate mainly along omega3 (I3), with small perturbations along the other two axes
         # omega_z = 2.0  # [Hz]
         # omega0 = np.array([omega_z * 0.01, omega_z * 0.001, omega_z * 1.0]) * 2 * np.pi
         
