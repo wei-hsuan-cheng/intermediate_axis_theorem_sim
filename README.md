@@ -11,6 +11,8 @@ $
 \mathbf{I} \, \dot{\bm{\omega}} + \bm{\omega} \times \left( \mathbf{I} \, \bm{\omega} \right) = \mathbf{M}
 \end{aligned}
 $
+
+<img src="equations/general_vector_form.pdf" alt="general_vector_form" width="400"/>
     
 - Under torque-free condition
 
