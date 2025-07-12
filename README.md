@@ -26,7 +26,6 @@ Simulation of the intermediate axis theorem (as known as the tennis racket theor
     > Unstable rotation (axis flipped)
     <img src="assets/i2.gif" alt="Intermediate Axis Theorem Demo" width="400"/>
 
-
 ## Demo
 
 Run the simulation (rigid body rotation in the three main axes, with other two being perturbed):
@@ -38,3 +37,9 @@ cd ~/intermediate_axis_theorem_sim && python3 sim.py
 cd ~/intermediate_axis_theorem_sim && python3 sim_ros2.py
 rviz2
 ```
+
+## Contact
+
+- **Author**: Wei-Hsuan Cheng [(johnathancheng0125@gmail.com)](mailto:johnathancheng0125@gmail.com)
+- **Homepage**: [wei-hsuan-cheng](https://wei-hsuan-cheng.github.io)
+- **GitHub**: [wei-hsuan-cheng](https://github.com/wei-hsuan-cheng)
