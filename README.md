@@ -34,6 +34,7 @@ Run the simulation (rigid body rotation in the three main axes, with other two b
 # Simulation in matplotlib
 cd ~/intermediate_axis_theorem_sim && python3 sim.py
 
-# Simulation in ros2 and rivz2
+# Simulation in ros2 and visualise in rivz2
 cd ~/intermediate_axis_theorem_sim && python3 sim_ros2.py
+rviz2
 ```
